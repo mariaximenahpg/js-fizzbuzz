@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #083b4c;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #083b4c;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 1.875rem 0;
+    font-size: 3.125rem;
+}
+
+.square {
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: #1389b2;
+    border: .0625rem solid black;
+    margin: .625rem;
+    text-align: center;
+    line-height: 6.25rem;
+    flex-grow: 1;
+}
+
+.square:hover{
+    opacity: 50%;
+}
+
+.fizz {
+    background-color: #0cd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
+
+.fizz-buzz {
+    background-color: #f0466f;
+}
